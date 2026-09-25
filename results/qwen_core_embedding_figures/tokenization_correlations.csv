@@ -1,0 +1,9 @@
+stratum,method,x,y,correlation,n
+overall,pearson,token_increase,example_drop,-0.0076163271639106255,120
+overall,spearman,token_increase,example_drop,0.04268254976600151,120
+severity_1,pearson,token_increase,example_drop,-0.2799881883526273,40
+severity_1,spearman,token_increase,example_drop,-0.1436196588327254,40
+severity_2,pearson,token_increase,example_drop,-0.08349108845504725,40
+severity_2,spearman,token_increase,example_drop,-0.0645825155797941,40
+severity_3,pearson,token_increase,example_drop,-0.07816474300985346,40
+severity_3,spearman,token_increase,example_drop,-0.08803741406195122,40

@@ -1,0 +1,10 @@
+model,task,typo_type,location,severity,typo_difficulty,keyword_strategy,mitigation,score,score_std,n,requested_n,requested_rows,excluded_examples_due_to_errors,corruption_replicates,error_rate,mean_actual_severity,mean_actual_char_operations,severity_completion_rate,clean_score,absolute_drop,drop_ci_2.5,drop_ci_97.5,bootstrap_probability_drop_le_zero,relative_degradation
+Qwen/Qwen3-4B,gsm8k,deletion,any,1,hard,idf,none,0.87,0.3379976689896311,100,100,100,0,1,0.0,1.0,2.0,1.0,0.94,0.07,0.03,0.12,0.0,0.07446808510638299
+Qwen/Qwen3-4B,gsm8k,deletion,any,2,hard,idf,none,0.84,0.3684529491774707,100,100,100,0,1,0.0,2.0,4.0,1.0,0.94,0.1,0.04,0.17,0.0004,0.10638297872340427
+Qwen/Qwen3-4B,gsm8k,deletion,any,3,hard,idf,none,0.8,0.4020151261036849,100,100,100,0,1,0.0,3.0,6.0,1.0,0.94,0.14,0.08,0.21,0.0,0.14893617021276598
+Qwen/Qwen3-4B,gsm8k,keyboard,any,1,hard,idf,none,0.87,0.33799766898963113,100,100,100,0,1,0.0,1.0,2.0,1.0,0.94,0.07,0.03,0.12,0.0004,0.07446808510638299
+Qwen/Qwen3-4B,gsm8k,keyboard,any,2,hard,idf,none,0.86,0.348735088019777,100,100,100,0,1,0.0,2.0,4.0,1.0,0.94,0.08,0.02,0.15,0.0084,0.08510638297872342
+Qwen/Qwen3-4B,gsm8k,keyboard,any,3,hard,idf,none,0.81,0.3942772444036625,100,100,100,0,1,0.0,3.0,6.0,1.0,0.94,0.13,0.06,0.2,0.0,0.13829787234042554
+Qwen/Qwen3-4B,gsm8k,transposition,any,1,hard,idf,none,0.91,0.2876234912646614,100,100,100,0,1,0.0,1.0,2.0,1.0,0.94,0.03,-0.01,0.08,0.1126,0.031914893617021274
+Qwen/Qwen3-4B,gsm8k,transposition,any,2,hard,idf,none,0.86,0.34873508801977704,100,100,100,0,1,0.0,2.0,4.0,1.0,0.94,0.08,0.02,0.14,0.0034,0.08510638297872342
+Qwen/Qwen3-4B,gsm8k,transposition,any,3,hard,idf,none,0.84,0.3684529491774707,100,100,100,0,1,0.0,3.0,6.0,1.0,0.94,0.1,0.04,0.17,0.0002,0.10638297872340427

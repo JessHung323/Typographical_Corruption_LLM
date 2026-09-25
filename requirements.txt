@@ -1,0 +1,21 @@
+# Core experiment and Hugging Face inference
+torch>=2.2
+transformers>=4.51
+datasets>=3.0
+accelerate>=0.30
+bitsandbytes>=0.43
+
+# Data processing
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11
+tqdm>=4.66
+
+# Visualization and dimensionality reduction
+matplotlib>=3.8
+scikit-learn>=1.4
+umap-learn>=0.5.6
+
+# OpenAI generation, embeddings, and tokenization
+openai>=1.30
+tiktoken>=0.7

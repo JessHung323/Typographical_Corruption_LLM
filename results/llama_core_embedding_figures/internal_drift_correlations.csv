@@ -1,0 +1,9 @@
+stratum,method,x,y,correlation,n
+overall,pearson,cosine_distance,example_score_drop,0.06487262478960411,120
+overall,spearman,cosine_distance,example_score_drop,0.1067952821619593,120
+severity_1,pearson,cosine_distance,example_score_drop,-0.09292041673520951,40
+severity_1,spearman,cosine_distance,example_score_drop,-0.05502501536565837,40
+severity_2,pearson,cosine_distance,example_score_drop,-0.05116713102731888,40
+severity_2,spearman,cosine_distance,example_score_drop,-0.014352920067636336,40
+severity_3,pearson,cosine_distance,example_score_drop,0.05706245687025402,40
+severity_3,spearman,cosine_distance,example_score_drop,-0.00010286841012632222,40

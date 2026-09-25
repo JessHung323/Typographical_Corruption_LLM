@@ -1,0 +1,18 @@
+{
+  "input": "results/qwen_squad_core.csv",
+  "model": "Qwen/Qwen3-4B",
+  "model_revision": null,
+  "embedding_backend": "hf",
+  "embedding_model": "Qwen/Qwen3-4B",
+  "metric": "f1",
+  "mitigation": "none",
+  "typo_difficulty": "hard",
+  "embedding_typo": "keyboard",
+  "embedding_location": "any",
+  "embedding_samples": 40,
+  "projection": "pca",
+  "num_layers_including_embedding_output": 37,
+  "representation_input": "question_token_span_within_exact_inference_chat_prompt",
+  "tokenizer_or_encoding": "Qwen2Tokenizer",
+  "tokenizer_fallback_used": false
+}

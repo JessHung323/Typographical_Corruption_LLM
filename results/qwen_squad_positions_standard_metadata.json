@@ -1,0 +1,86 @@
+{
+  "created_at_utc": "2026-09-21T21:57:59.379006+00:00",
+  "arguments": {
+    "task": "squad",
+    "backend": "hf",
+    "model": "Qwen/Qwen3-4B",
+    "model_revision": null,
+    "dataset_revision": null,
+    "openai_temperature": null,
+    "n_samples": 200,
+    "sample_offset": 0,
+    "seed": 42,
+    "typo_types": [
+      "keyboard",
+      "deletion",
+      "transposition"
+    ],
+    "locations": [
+      "beginning",
+      "middle",
+      "end",
+      "keyword"
+    ],
+    "severities": [
+      1
+    ],
+    "match_typo_targets": true,
+    "corruption_replicates": 1,
+    "typo_difficulties": [
+      "standard"
+    ],
+    "keyword_strategy": "idf",
+    "mitigations": [
+      "none"
+    ],
+    "max_new_tokens": 256,
+    "load_in_4bit": false,
+    "checkpoint_every": 50,
+    "bootstrap_samples": 5000,
+    "output": "results/qwen_squad_positions_standard.csv",
+    "overwrite": false
+  },
+  "n_loaded_examples": 200,
+  "n_rows": 2600,
+  "n_generation_errors": 0,
+  "severity_definition": "number of distinct corrupted words",
+  "nested_severity": true,
+  "matched_typo_targets": true,
+  "corruption_replicates": 1,
+  "independent_unit_for_inference": "example_id",
+  "decoding": {
+    "strategy": "greedy",
+    "do_sample": false,
+    "max_new_tokens": 256,
+    "openai_temperature": null
+  },
+  "location_fallback_allowed": false,
+  "keyword_definition": "highest smoothed corpus IDF among non-stopwords, length tie-break",
+  "environment": {
+    "python": "3.13.15",
+    "packages": {
+      "torch": "2.11.0+cu128",
+      "transformers": "5.16.1",
+      "datasets": "4.8.5",
+      "accelerate": "1.14.0",
+      "bitsandbytes": "0.50.2",
+      "numpy": "2.1.3",
+      "pandas": "2.2.3",
+      "scipy": "1.16.3",
+      "openai": "2.54.0",
+      "tiktoken": "0.14.0"
+    }
+  },
+  "model_runtime": {
+    "backend": "hf",
+    "model_name": "Qwen/Qwen3-4B",
+    "requested_revision": null,
+    "resolved_commit_hash": "1cfa9a7208912126459214e8b04321603b3df60c",
+    "model_dtype": "torch.bfloat16",
+    "devices": [
+      "cuda:0"
+    ],
+    "load_in_4bit": false,
+    "tokenizer_class": "Qwen2Tokenizer"
+  }
+}

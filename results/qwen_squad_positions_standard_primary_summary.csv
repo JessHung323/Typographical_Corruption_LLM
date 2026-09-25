@@ -1,0 +1,2 @@
+model,task,severity,typo_difficulty,mitigation,n,requested_n,excluded_examples_due_to_errors,clean_score,score,absolute_drop,drop_ci_2.5,drop_ci_97.5,bootstrap_probability_drop_le_zero
+Qwen/Qwen3-4B,squad,1,standard,none,200,200,0,0.8747384091942917,0.8620918396028594,0.012646569591432089,0.0028776764677081687,0.023380285646242796,0.005

@@ -1,0 +1,2 @@
+model,task,severity,typo_difficulty,mitigation,n,requested_n,excluded_examples_due_to_errors,clean_score,score,absolute_drop,drop_ci_2.5,drop_ci_97.5,bootstrap_probability_drop_le_zero
+meta-llama/Llama-3.2-3B-Instruct,squad,3,hard,none,100,100,0,0.860355733276012,0.693809144802019,0.16654658847399276,0.1176393975948377,0.21543523008209028,0.0

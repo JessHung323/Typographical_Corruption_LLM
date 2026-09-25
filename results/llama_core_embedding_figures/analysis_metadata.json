@@ -1,0 +1,18 @@
+{
+  "input": "results/llama_squad_core.csv",
+  "model": "meta-llama/Llama-3.2-3B-Instruct",
+  "model_revision": null,
+  "embedding_backend": "hf",
+  "embedding_model": "meta-llama/Llama-3.2-3B-Instruct",
+  "metric": "f1",
+  "mitigation": "none",
+  "typo_difficulty": "hard",
+  "embedding_typo": "keyboard",
+  "embedding_location": "any",
+  "embedding_samples": 40,
+  "projection": "pca",
+  "num_layers_including_embedding_output": 29,
+  "representation_input": "question_token_span_within_exact_inference_chat_prompt",
+  "tokenizer_or_encoding": "TokenizersBackend",
+  "tokenizer_fallback_used": false
+}

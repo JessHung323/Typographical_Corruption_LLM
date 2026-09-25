@@ -1,0 +1,10 @@
+model,task,typo_type,location,severity,typo_difficulty,keyword_strategy,mitigation,score,score_std,n,requested_n,requested_rows,excluded_examples_due_to_errors,corruption_replicates,error_rate,mean_actual_severity,mean_actual_char_operations,severity_completion_rate,clean_score,absolute_drop,drop_ci_2.5,drop_ci_97.5,bootstrap_probability_drop_le_zero,relative_degradation
+meta-llama/Llama-3.2-3B-Instruct,gsm8k,deletion,any,1,hard,idf,none,0.77,0.42295258468165076,100,100,100,0,1,0.0,1.0,2.0,1.0,0.79,0.02,-0.05,0.09,0.3374,0.02531645569620253
+meta-llama/Llama-3.2-3B-Instruct,gsm8k,deletion,any,2,hard,idf,none,0.71,0.4560480215720687,100,100,100,0,1,0.0,2.0,4.0,1.0,0.79,0.08,0.0,0.17,0.0386,0.10126582278481013
+meta-llama/Llama-3.2-3B-Instruct,gsm8k,deletion,any,3,hard,idf,none,0.71,0.4560480215720687,100,100,100,0,1,0.0,3.0,6.0,1.0,0.79,0.08,0.0,0.17,0.0412,0.10126582278481013
+meta-llama/Llama-3.2-3B-Instruct,gsm8k,keyboard,any,1,hard,idf,none,0.75,0.4351941398892446,100,100,100,0,1,0.0,1.0,2.0,1.0,0.79,0.04,-0.03,0.11,0.1762,0.05063291139240506
+meta-llama/Llama-3.2-3B-Instruct,gsm8k,keyboard,any,2,hard,idf,none,0.73,0.4461960433384737,100,100,100,0,1,0.0,2.0,4.0,1.0,0.79,0.06,-0.01,0.13,0.0636,0.07594936708860758
+meta-llama/Llama-3.2-3B-Instruct,gsm8k,keyboard,any,3,hard,idf,none,0.73,0.4461960433384737,100,100,100,0,1,0.0,3.0,6.0,1.0,0.79,0.06,-0.02,0.14,0.0794,0.07594936708860758
+meta-llama/Llama-3.2-3B-Instruct,gsm8k,transposition,any,1,hard,idf,none,0.82,0.3861229196653691,100,100,100,0,1,0.0,1.0,2.0,1.0,0.79,-0.03,-0.08,0.02,0.9158,-0.03797468354430379
+meta-llama/Llama-3.2-3B-Instruct,gsm8k,transposition,any,2,hard,idf,none,0.78,0.4163331998932266,100,100,100,0,1,0.0,2.0,4.0,1.0,0.79,0.01,-0.07,0.09,0.4492,0.012658227848101266
+meta-llama/Llama-3.2-3B-Instruct,gsm8k,transposition,any,3,hard,idf,none,0.74,0.44084400227680803,100,100,100,0,1,0.0,3.0,6.0,1.0,0.79,0.05,-0.03,0.13,0.1346,0.06329113924050633

@@ -1,0 +1,2 @@
+# Backward-compatible alias. Use requirements.txt for the canonical dependency list.
+-r requirements.txt

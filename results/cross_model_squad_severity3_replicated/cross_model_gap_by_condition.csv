@@ -1,0 +1,4 @@
+model_a,model_b,gap_definition,typo_type,location,severity,mean_gap,gap_ci_2.5,gap_ci_97.5,n_examples
+Qwen3-4B,Llama-3.2-3B-Instruct,drop_model_a_minus_drop_model_b,deletion,any,3,-0.05777951113499176,-0.12227821743470904,0.010323692173992738,100
+Qwen3-4B,Llama-3.2-3B-Instruct,drop_model_a_minus_drop_model_b,keyboard,any,3,-0.07007597009573177,-0.13782280404641914,-0.001149463421344015,100
+Qwen3-4B,Llama-3.2-3B-Instruct,drop_model_a_minus_drop_model_b,transposition,any,3,-0.05290774485954593,-0.12359323001112937,0.022966474367578087,100

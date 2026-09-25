@@ -1,0 +1,7 @@
+model_label,typo_type,mean,ci_2.5,ci_97.5,n
+Llama-3.2-3B-Instruct,deletion,0.08,-0.00024999999999991473,0.17,100
+Llama-3.2-3B-Instruct,keyboard,0.06,-0.02,0.14,100
+Llama-3.2-3B-Instruct,transposition,0.05,-0.03,0.13,100
+Qwen3-4B,deletion,0.14,0.08,0.21,100
+Qwen3-4B,keyboard,0.13,0.06,0.2,100
+Qwen3-4B,transposition,0.1,0.04,0.17,100
